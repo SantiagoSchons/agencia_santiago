@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agência de Tecnologia</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="bg-gray-900 text-white">
+    <div class="container mx-auto flex justify-between items-center p-6">
+      <h1 class="text-2xl font-bold">Tech Solutions</h1>
+      <nav class="space-x-6">
+        <a href="#servicos" class="hover:text-gray-300">Serviços</a>
+        <a href="https://portfolio-vue-3.onrender.com/" class="hover:text-gray-300">Portfólio</a>
+        <a href="#sobre" class="hover:text-gray-300">Sobre</a>
+        <a href="#contato" class="hover:text-gray-300">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-gradient-to-r from-blue-700 to-purple-700 text-white py-20 text-center px-4">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Soluções tecnológicas para impulsionar sua empresa</h2>
+    <p class="text-xl mb-8">Desenvolvimento, automação e inovação sob medida para seu negócio.</p>
+    <a href="#contato" class="bg-white text-blue-700 font-bold py-3 px-6 rounded-lg shadow hover:bg-gray-100">
+      Solicite um orçamento
+    </a>
+  </section>
+
+  <section id="servicos" class="py-16">
+    <div class="container mx-auto text-center px-4">
+      <h3 class="text-3xl font-bold mb-10">Nossos Serviços</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 border rounded-lg shadow hover:shadow-xl">
+          <h4 class="text-xl font-semibold mb-2">Desenvolvimento Web</h4>
+          <p>Sites, sistemas e aplicações sob demanda com foco em performance e usabilidade.</p>
+        </div>
+        <div class="p-6 border rounded-lg shadow hover:shadow-xl">
+          <h4 class="text-xl font-semibold mb-2">Automação de Processos</h4>
+          <p>Integrações, bots e ferramentas para aumentar a produtividade da sua equipe.</p>
+        </div>
+        <div class="p-6 border rounded-lg shadow hover:shadow-xl">
+          <h4 class="text-xl font-semibold mb-2">Consultoria em TI</h4>
+          <p>Planejamento de infraestrutura, segurança, cloud e soluções personalizadas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="bg-gray-100 py-16">
+    <div class="container mx-auto text-center px-4 max-w-3xl">
+      <h3 class="text-3xl font-bold mb-6">Quem Somos</h3>
+      <p class="text-lg">
+        Somos uma agência de tecnologia apaixonada por inovação. Com uma equipe multidisciplinar, oferecemos soluções que conectam negócios a resultados por meio da transformação digital.
+      </p>
+    </div>
+  </section>
+
+  <section id="contato" class="bg-gray-900 text-white py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Fale Conosco</h3>
+      <form class="max-w-xl mx-auto text-left space-y-4" id="contato-form">
+        <input type="text" placeholder="Seu nome" required class="w-full p-3 rounded bg-white text-black" />
+        <input type="email" placeholder="Seu e-mail" required class="w-full p-3 rounded bg-white text-black" />
+        <textarea placeholder="Sua mensagem" required class="w-full p-3 rounded bg-white text-black" rows="5"></textarea>
+        <button type="submit" class="bg-blue-600 hover:bg-blue-500 py-3 px-6 rounded font-bold">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-black text-gray-400 text-center py-6">
+    <p>&copy; 2025 Tech Solutions. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
